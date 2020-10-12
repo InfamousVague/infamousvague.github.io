@@ -1,0 +1,74 @@
+body{
+    background: black;
+    color: #fff;
+    font-family: 'Major Mono Display', monospace;
+    text-align: center;
+    background-image: url('../img/lines.svg');
+    background-size: 700px 700px;
+    background-position: 0 -90px;
+    background-repeat: no-repeat;
+}
+#defaultCanvas0 {
+    position: absolute;
+    top: 4rem;
+    left: 15rem;
+}
+#streaks {
+    background: #000;
+    width: 450px;
+    margin: 0 auto;
+}
+#content {
+    margin-top: 0px;
+    margin-bottom: 5rem;
+}
+.bordered {
+    border: 2px solid #fff;
+    padding: 2rem;
+}
+#skills {
+    width: 650px;
+    margin: 0 auto;
+    margin-top: 2rem;
+    line-height: 1.5rem;
+    background: #000;
+}
+a {
+    color: #fff;
+}
+.info {
+    color: white;
+    font: 1em sans-serif;
+    text-align: center;
+}
+
+.info a{
+    color: white;
+}
+
+.divider {
+    border: none;
+    border-top: 2px dashed #fff;
+    width: 750px;
+    margin: 3rem auto;
+}
+
+header {
+    padding-top: 8.7rem;
+    margin-top: 0rem;
+}
+
+svg {
+    width: 700px;
+    height: 120px;
+    display: block;
+    position: relative;
+    overflow: hidden;
+    margin: 1rem calc(50% - 350px);
+    background: black;
+}
+
+#subtext_svg {
+    height: 30px !important;
+    text-align: center;
+}
