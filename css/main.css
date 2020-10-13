@@ -64,6 +64,28 @@ a {
     width: 100%;
     margin: 3rem auto;
 }
+.divider-short {
+    border: none;
+    border-top: 1px dashed #fff;
+    width: 100%;
+    float: left;
+    margin: 0.5rem auto;
+}
+.project button {
+    width: calc(100% - 1rem);
+    border: 2px solid #fff;
+    background: #000;
+    color: #fff;
+    font-family: 'Major Mono Display', monospace;
+    padding: 0.5rem 1rem;
+    position: absolute;
+    bottom: 0.5rem;
+}
+.project button:hover {
+    cursor: pointer;
+    background: #fff;
+    color: #000;
+}
 
 header {
     padding-top: 8.7rem;
@@ -78,6 +100,30 @@ svg {
     overflow: hidden;
     margin: 0 auto;
     background: black;
+}
+#projects {
+    width: 100%;
+    display: inline-block;
+}
+.project {
+    border: 2px solid #fff;
+    width: calc(37% - 5rem);
+    padding: 0.5rem;
+    margin: 1rem;
+    float: left;
+    text-align: left;
+    height: 180px;
+    position: relative;
+}
+.project h4 {
+    margin: 0;
+}
+.project p {
+    font-size: 10pt;
+}
+.project .dimmed {
+    border: 2px solid #eee;
+    color: #eee;
 }
 
 #subtext_svg {
