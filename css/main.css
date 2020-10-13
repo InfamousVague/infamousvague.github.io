@@ -8,6 +8,16 @@ body{
     background-position: 0 -90px;
     background-repeat: no-repeat;
 }
+body::selection {
+    background: #fff !important; /* WebKit/Blink Browsers */
+}
+body::-moz-selection {
+    background: #fff !important; /* Gecko Browsers */
+}
+#wrapper {
+    max-width: 750px;
+    margin: 0 auto;
+}
 #defaultCanvas0 {
     position: absolute;
     top: 4rem;
@@ -15,19 +25,21 @@ body{
 }
 #streaks {
     background: #000;
-    width: 450px;
+    max-width: 450px;
     margin: 0 auto;
 }
 #content {
     margin-top: 0px;
     margin-bottom: 5rem;
 }
+
 .bordered {
     border: 2px solid #fff;
     padding: 2rem;
 }
 #skills {
-    width: 650px;
+    width: 82%;
+    max-width: 650px;
     margin: 0 auto;
     margin-top: 2rem;
     line-height: 1.5rem;
@@ -49,7 +61,7 @@ a {
 .divider {
     border: none;
     border-top: 2px dashed #fff;
-    width: 750px;
+    width: 100%;
     margin: 3rem auto;
 }
 
@@ -59,12 +71,12 @@ header {
 }
 
 svg {
-    width: 700px;
+    width: 97%;
     height: 120px;
     display: block;
     position: relative;
     overflow: hidden;
-    margin: 1rem calc(50% - 350px);
+    margin: 0 auto;
     background: black;
 }
 
