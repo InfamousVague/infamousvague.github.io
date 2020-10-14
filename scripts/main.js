@@ -20,3 +20,17 @@ setInterval(() => {
         document.title = 'RETROPRONGHORN';
     }, 1200);
 }, 3000);
+
+setInterval(() => {
+    const loading = document.getElementById('loading')
+    loading.innerText = "."
+    setTimeout(() => {
+        loading.innerText = ".."
+    }, 500)
+    setTimeout(() => {
+        loading.innerText = "..."
+    }, 1000)
+    setTimeout(() => {
+        loading.innerText = "...."
+    }, 1500)
+}, 2000)
