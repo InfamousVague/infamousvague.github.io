@@ -14,6 +14,12 @@ body::selection {
 body::-moz-selection {
     background: #fff !important; /* Gecko Browsers */
 }
+.no-underline {
+    text-decoration: none;
+}
+.no-underline:hover {
+    color: #000;
+}
 #wrapper {
     max-width: 750px;
     margin: 0 auto;
@@ -84,6 +90,9 @@ a {
 .project button:hover {
     cursor: pointer;
     background: #fff;
+    color: #000;
+}
+.project button:hover > a {
     color: #000;
 }
 
